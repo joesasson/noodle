@@ -21,18 +21,7 @@ Before:
 ![before](https://camo.githubusercontent.com/e9019b612d72d78fbe21c47679befd4627097946/68747470733a2f2f692e696d6775722e636f6d2f635737554672682e706e67)
 
 After:
-![after](https://i.imgur.com/LMcy2Qt.png)
-
-
-## Technologies of Note
-
-This project takes advantage of a lot of new improvements to the google-apps-scripts (GAS) ecosystem
-The biggest one is [clasp](https://github.com/google/clasp) which enables local development (with --watch) as well as typescript (which includes ES6) compilation.
-
-I also added the `google-apps-script` type package in order to enable intellisense in vscode
-It can be installed via `npm i -S @types/google-apps-script` per this [great guide](https://github.com/google/clasp/blob/master/docs/typescript.md)
-
-If you want to write a google apps script do yourself a favor and look into [clasp](https://github.com/google/clasp)
+![after](https://camo.githubusercontent.com/40d89b6ed0a50b8171acde1cc4abea7422cb6cdc/68747470733a2f2f692e696d6775722e636f6d2f4c4d63793251742e706e67)
 
 ## How to use
 
@@ -47,3 +36,15 @@ If you somehow have a use for this script, you can add it to one of your google 
   8. From the "Run" Menu click "Test as add-on..." and select the document that you would like to use the script with
   9. Open the document (you must be viewing the sheet with the dump) and click on the menu item Add-ons > noodle > Create Size Grid By Store
   10. Profit!!
+
+## Technologies of Note
+
+This project takes advantage of a lot of new improvements to the google-apps-scripts (GAS) ecosystem.
+
+The biggest one is [clasp](https://github.com/google/clasp) which enables local development (with --watch) as well as typescript (which includes ES6) compilation.
+
+I also added the `google-apps-script` type package in order to enable intellisense in [vscode](https://code.visualstudio.com/).
+
+It can be installed via `npm i -S @types/google-apps-script` per this [great guide](https://github.com/google/clasp/blob/master/docs/typescript.md)
+
+If you want to write a google apps script do yourself a favor and look into [clasp](https://github.com/google/clasp)
